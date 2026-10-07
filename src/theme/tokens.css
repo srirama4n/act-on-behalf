@@ -1,0 +1,17 @@
+:root {
+  --wf-red: #d71e28;
+  --wf-red-dark: #b31e30;
+  --wf-gold: #ffcd41;
+  --wf-purple: #5b2b8a;
+  --wf-purple-soft: #f3eef8;
+  --wf-amber: #d97706;
+  --wf-amber-soft: #fef3c7;
+  --wf-ink: #141414;
+  --wf-gray-700: #3b3331;
+  --wf-gray-300: #d6d1cf;
+  --wf-cream: #f4f0ed;
+  --wf-white: #ffffff;
+  --ok: #0f7b3f;
+  --warn: #b26b00;
+  --err: #a4161a;
+}

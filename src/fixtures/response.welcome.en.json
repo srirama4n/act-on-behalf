@@ -1,0 +1,269 @@
+{
+  "jsonClass": "com.wellsfargo.cva.schema.chatservice.v1.model.ChatServiceResponse",
+  "uniqueToken": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+  "headers": {
+    "application_environment": "rqa",
+    "sender_app_id": "cvams",
+    "sender_host_name": "demo-host-01",
+    "cache_key": "22222222-2222-4222-8222-222222222222_11111111-1111-4111-8111-111111111111_A",
+    "App_Resolved_Version": "2026030000",
+    "session_id": "11111111-1111-4111-8111-111111111111_A",
+    "chat_message_id": "44444444-4444-4444-8444-444444444444",
+    "ecn_id": "000000000001",
+    "App_Internal_Version": "2026030000",
+    "event_timestamp": "1774290612000",
+    "api_version": "1",
+    "Resolved_Lang_Pref_Code": "en",
+    "event_id": "bbbbbbbb-bbbb-4bbb-8bbb-bbbbbbbbbbbb",
+    "event_type": "TOKENIZED_CHAT_SERVICE_RESPONSE",
+    "m2_session_id": "22222222-2222-4222-8222-222222222222",
+    "conversation_id": "11111111-1111-4111-8111-111111111111_A",
+    "Language_Preference": "en",
+    "kafka_correlationId": "aaaaaaaa-aaaa-4aaa-8aaa-aaaaaaaaaaaa",
+    "event_name": "kafka.dna.topic",
+    "xa_id": null,
+    "orch.senderHostName": "demo-orch-01"
+  },
+  "jsonString": {
+    "version": "1.0",
+    "systemRespTokenized": true,
+    "nlpSessionStart": true,
+    "dirtyData": null,
+    "metadata": {
+      "reference": null
+    },
+    "config": {
+      "keepAliveUrl": "/xapi/virtual-assistant/chatbot/v1/keepalive",
+      "appLinkUrl": "/applink",
+      "chatUrl": "/xapi/virtual-assistant/chatbot/v1/chat",
+      "logOffUrl": "/xapi/virtual-assistant/chatbot/v1/logoff",
+      "chatResumeUrl": "/xapi/virtual-assistant/chatbot/v1/resume",
+      "exitSamlUrl": null,
+      "fafUrl": "/xapi/virtual-assistant/chatbot/v1/faf",
+      "homeButtonUrl": "/accounts",
+      "merchantSearch": "/merchant-search",
+      "insightsUrl": null,
+      "fafXapiUrl": "/xapi/virtual-assistant/chatbot/v1/faf",
+      "chatXapiUrl": "/xapi/virtual-assistant/chatbot/v1/chat",
+      "homeButtonXapiUrl": "/xapi/virtual-assistant/chatbot/v1/home",
+      "exitXapiUrl": "/xapi/virtual-assistant/chatbot/v1/exit",
+      "keepAliveXapiUrl": null,
+      "xapiContextPath": "/xapi/virtual-assistant/chatbot",
+      "disclosureMessage": "COMPLIANCE DISCLOSURE - BOTH",
+      "apiOverride": null,
+      "keepAliveTimeout": null,
+      "richMessages": true,
+      "cookies": [],
+      "headers": [],
+      "integrations": null,
+      "userProfileUrl": null,
+      "userProfile": null,
+      "en": null,
+      "es": null,
+      "languageChange": null,
+      "newLanguagePrefCode": null
+    },
+    "agentInfo": null,
+    "messages": [
+      {
+        "inputStatus": "ENABLED",
+        "generatedResponseType": null,
+        "inputFormat": "FREE_TEXT",
+        "inputValidation": null,
+        "displayKeyboard": null,
+        "messageFormat": "ANNOTATED",
+        "pageTitle": "Fargo",
+        "layer": "L1",
+        "custom": {
+          "responseID": "welcome.returninguser",
+          "gsdUpdated": "false"
+        },
+        "navigationInfo": null,
+        "channelData": null,
+        "error": {
+          "errorCode": "",
+          "errorMessage": ""
+        },
+        "annotations": [],
+        "systemMessages": [],
+        "footnotes": [],
+        "disclosures": [],
+        "actions": [
+          {
+            "actionType": "SUBMIT_AWAIT",
+            "url": "/xapi/virtual-assistant/chatbot/v1/chat",
+            "xapiEnabled": "true",
+            "feedback": "WIDGET",
+            "renderMode": "INLINE",
+            "transitionMode": null,
+            "transitionText": null,
+            "actionCompletedText": null,
+            "payload": {
+              "channelData": {
+                "callToActionId": "TBD",
+                "event": null,
+                "goldenUtterance": null,
+                "sessionParams": {},
+                "webhookParams": {},
+                "cookies": [],
+                "headers": [],
+                "parameters": [],
+                "custom": null,
+                "hint": null,
+                "navigationId": null
+              }
+            },
+            "id": "77777777-7777-4777-8777-777777777777",
+            "conversation": {
+              "id": "11111111-1111-4111-8111-111111111111_A"
+            },
+            "replyTo": "44444444-4444-4444-8444-444444444444",
+            "subSystem": null,
+            "source": "USER",
+            "timestamp": 1774290612,
+            "messageType": "TEXT",
+            "message": null,
+            "router": null,
+            "isAccountTile": null
+          }
+        ],
+        "richMessages": [
+          {
+            "responseType": "QRB_LIST",
+            "variation": null,
+            "actions": [],
+            "data": {
+              "buttons": [
+                {
+                  "type": "SIMPLE",
+                  "orientation": null,
+                  "navigationInfo": null,
+                  "alignment": null,
+                  "additionalInfo": null,
+                  "channelData": {
+                    "callToActionId": null,
+                    "event": null,
+                    "goldenUtterance": "What's my balance?",
+                    "sessionParams": {},
+                    "webhookParams": {},
+                    "cookies": [],
+                    "headers": [],
+                    "parameters": [],
+                    "custom": {
+                      "uiElementID": "qrb.WhatsMyBalance"
+                    },
+                    "hint": null,
+                    "navigationId": null,
+                    "title": "What's my balance?"
+                  },
+                  "styleAttributes": null
+                },
+                {
+                  "type": "SIMPLE",
+                  "orientation": null,
+                  "navigationInfo": null,
+                  "alignment": null,
+                  "additionalInfo": null,
+                  "channelData": {
+                    "callToActionId": null,
+                    "event": null,
+                    "goldenUtterance": "Should I share my travel plans?",
+                    "sessionParams": {},
+                    "webhookParams": {},
+                    "cookies": [],
+                    "headers": [],
+                    "parameters": [],
+                    "custom": {
+                      "uiElementID": "qrb.ShareMyTravelPlans"
+                    },
+                    "hint": null,
+                    "navigationId": null,
+                    "title": "Should I share my travel plans?"
+                  },
+                  "styleAttributes": null
+                },
+                {
+                  "type": "SIMPLE",
+                  "orientation": null,
+                  "navigationInfo": null,
+                  "alignment": null,
+                  "additionalInfo": null,
+                  "channelData": {
+                    "callToActionId": null,
+                    "event": null,
+                    "goldenUtterance": "How's my spending?",
+                    "sessionParams": {},
+                    "webhookParams": {},
+                    "cookies": [],
+                    "headers": [],
+                    "parameters": [],
+                    "custom": {
+                      "uiElementID": "qrb.HowsMySpending"
+                    },
+                    "hint": null,
+                    "navigationId": null,
+                    "title": "How's my spending?"
+                  },
+                  "styleAttributes": null
+                },
+                {
+                  "type": "SIMPLE",
+                  "orientation": null,
+                  "navigationInfo": null,
+                  "alignment": null,
+                  "additionalInfo": null,
+                  "channelData": {
+                    "callToActionId": null,
+                    "event": null,
+                    "goldenUtterance": "Show me what Fargo can do",
+                    "sessionParams": {},
+                    "webhookParams": {},
+                    "cookies": [],
+                    "headers": [],
+                    "parameters": [],
+                    "custom": {
+                      "uiElementID": "qrb.ShowMeWhatFargoCanDo"
+                    },
+                    "hint": null,
+                    "navigationId": null,
+                    "title": "Show me what Fargo can do"
+                  },
+                  "styleAttributes": null
+                }
+              ]
+            }
+          },
+          {
+            "responseType": "SYSTEM_MESSAGE",
+            "variation": null,
+            "actions": [],
+            "data": {
+              "disclosures": [
+                {
+                  "type": "PLAIN",
+                  "disclosureType": "DISCLOSURE-1C",
+                  "text": "Fargo is your AI assistant, not a real person. Wells Fargo and its service providers may…"
+                }
+              ]
+            }
+          }
+        ],
+        "form": null,
+        "animationSettings": null,
+        "banner": [],
+        "id": "44444444-4444-4444-8444-444444444444",
+        "conversation": {
+          "id": "11111111-1111-4111-8111-111111111111_A"
+        },
+        "replyTo": "33333333-3333-4333-8333-333333333333",
+        "subSystem": "WEBHOOK",
+        "source": "SYSTEM",
+        "timestamp": 1774290612,
+        "messageType": null,
+        "message": "Hi, SamA. \n\nWhat would you like to do today?",
+        "router": null,
+        "isAccountTile": null
+      }
+    ]
+  }
+}
